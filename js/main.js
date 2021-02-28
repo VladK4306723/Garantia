@@ -17,3 +17,16 @@ $(document).ready(function(){
       });
 
 })
+
+//функция для чекбокса в форме. Я ее написал просто что б была,можно удалить либо улучшить
+
+function checkBoxFun() {
+  var chbox;
+  chbox=document.getElementById('checkBox');
+    if (chbox.checked) {
+      console.log('Выбран');
+    }
+    else {
+      console.log('Не выбран');
+    }
+  }

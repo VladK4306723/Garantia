@@ -101,3 +101,147 @@
 
 
 }
+
+/*----------Kreichi Vladislav`s part----------*/
+
+
+@media (min-width: 1100px) {
+    .header__top_viberIcon {
+        visibility: hidden;
+    }
+
+    .header__top_contacts {
+        max-width: 55px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header__top {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__top_contacts {
+        z-index: -1;
+        margin-top: -56px;
+    }
+
+    .header__top_whatsappIcon {
+        margin-right: 100px;
+    }
+
+    .header__top_viberIcon {
+        margin-left: 100px;
+    }
+
+    .header__top > img {
+        position: relative;
+        order: -1;
+        margin: auto;
+        left: auto;
+        right: auto;
+    }
+
+    .header__top_contactsText {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+
+    .header__top_btn {
+        margin: auto;
+        margin-bottom: -15px;
+    }
+}
+
+@media (max-width: 830px) {
+
+    .areUbancrupt__form {
+        margin-top: 65px;
+    }
+
+    .areUbancrupt__form_checkBoxes {
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock {
+        margin-top: -2px;
+    }
+
+    .areUbancrupt__form_sending_form {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        margin-bottom: 27px;
+        margin-top: 60px;
+        width: 100% !important;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+ 
+    input[type="tel"] {
+        margin-bottom: 15px;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 793px) {
+    .header__top_workTime,
+    .header__top_address {
+        font-size: 14px;
+    }
+
+    .header__top_btn {
+        font-size: 14px !important;
+        
+    }
+
+    .header__nav > .container > nav > a {
+        font-size: 16px;
+    }
+
+    .areUbancrupt__form_top :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .areUbancrupt__form_top :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock_h1 {
+        font-size: 17px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock_text {
+        font-size: 14px;
+    }
+
+    .areUbancrupt__form_checkBoxesBlock {
+        padding: 40px 10px;
+    }
+
+    .areUbancrupt__checkBox {
+        font-size: 14px;
+    }
+
+    input[type="checkbox"]:checked + span {
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        font-size: 16px;
+    }
+
+    input[type="tel"] {
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}
